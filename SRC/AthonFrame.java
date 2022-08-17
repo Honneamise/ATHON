@@ -40,7 +40,7 @@ public class AthonFrame extends JFrame
         setJMenuBar(menu_bar);
 
         //core stuff
-        src_panel = new AthonPanel("RES/girl.jpg");
+        src_panel = new AthonPanel(null);
         dst_panel = new AthonPanel(null);
 
         pane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, new JScrollPane(src_panel), new JScrollPane(dst_panel));
