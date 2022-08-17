@@ -1,0 +1,1 @@
+java --add-opens=java.desktop/sun.awt.shell=ALL-UNNAMED -jar athon.jar

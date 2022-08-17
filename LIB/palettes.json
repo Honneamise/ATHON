@@ -1,0 +1,53 @@
+[
+    {
+        "Section"   : "Standard",
+        "Name"      : "Monochrome",
+        "Palette"   : ["000000","FFFFFF"]
+    },
+    {
+        "Section"   : "Standard",
+        "Name"      : "8 colors",
+        "Palette"   : ["000000","FFFFFF","FF0000","00FF00","0000FF","00FFFF","FF00FF","FFFF00"]       
+    },
+    {
+        "Section"   : "Standard",
+        "Name"      : "16 colors",
+        "Palette"   : ["00FFFF","000000","0000FF","FF00FF","808080","008000","00FF00","800000","000080","808000","800080","FF0000","C0C0C0","008080","FFFFFF","FFFF00"]
+    },
+    {
+        "Section"   : "CGA",
+        "Name"      : "Mode 4 #0 Low",
+        "Palette"   : ["000000","00AA00","AA0000","AA5500"]
+    },
+	{
+        "Section"   : "CGA",
+        "Name"      : "Mode 4 #0 High",
+        "Palette"   : ["000000","55FF55","FF5555","FFFF55"]
+    },
+	{
+        "Section"   : "CGA",
+        "Name"      : "Mode 4 #1 Low",
+        "Palette"   : ["000000","00AAAA","AA00AA","AAAAAA"]
+    },
+    {
+        "Section"   : "CGA",
+        "Name"      : "Mode 4 #1 High",
+        "Palette"   : ["000000","55FFFF","FF55FF","FFFFFF"]
+    },
+    {
+        "Section"   : "CGA",
+        "Name"      : "Mode 5 Low",
+        "Palette"   : ["000000","00AAAA","AA0000","AAAAAA"]
+    },
+	{
+        "Section"   : "CGA",
+        "Name"      : "Mode 5 High",
+        "Palette"   : ["000000","55FFFF","FF5555","FFFFFF"]
+    },
+    {
+        "Section"   : "Others",
+        "Name"      : "Gameboy",
+        "Palette"   : ["003c00","00720b","78bc00","90cc00"]
+    }
+
+]
