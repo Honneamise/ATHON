@@ -54,7 +54,7 @@ java --add-opens=java.desktop/sun.awt.shell=ALL-UNNAMED -jar athon.jar
 ```
 
 ## Info
-The program is written in Java by __atomfighter__ and __honneamise__.
+The program is written in Java by __atomfighter__ <theatomfighter@gmail.com> and __honneamise__.
 
 To apply a palette to an image the program retrieve the closest color using the euclidean distance.
 
