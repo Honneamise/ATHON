@@ -45,4 +45,5 @@ public class AthonPanel extends JPanel
 
         return new Dimension(img.getWidth(), img.getHeight());
     }
+
 }

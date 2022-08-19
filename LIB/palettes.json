@@ -1,37 +1,52 @@
 [
     {
-        "Section"   : "Standard",
-        "Name"      : "Monochrome",
-        "Palette"   : ["000000","FFFFFF"]
+        "Section"   : "Software",
+        "Name"      : "MS/IBM 16 colors",
+        "Palette"   : ["000000","800000","008000","808000","000080","800080","008080","C0C0C0","808080","FF0000","00FF00","FFFF00","0000FF","FF00FF","00FFFF","FFFFFF"]
     },
     {
-        "Section"   : "Standard",
-        "Name"      : "8 colors",
-        "Palette"   : ["000000","FFFFFF","FF0000","00FF00","0000FF","00FFFF","FF00FF","FFFF00"]       
+        "Section"   : "Software",
+        "Name"      : "MS 20 colors",
+        "Palette"   : ["000000","800000","008000","808000","000080","800080","008080","C0C0C0","C0DCC0","A6CAF0","FFFBF0","A0A0A4","808080","FF0000","00FF00","FFFF00","0000FF","FF00FF","00FFFF","FFFFFF"]
     },
     {
-        "Section"   : "Standard",
-        "Name"      : "16 colors",
-        "Palette"   : ["00FFFF","000000","0000FF","FF00FF","808080","008000","00FF00","800000","000080","808000","800080","FF0000","C0C0C0","008080","FFFFFF","FFFF00"]
+        "Section"   : "Software",
+        "Name"      : "Apple Macintosh",
+        "Palette"   : ["FFFFFF","FCF400","FF6400","DD0202","F10285","4600A6","0000D5","00AEE9","1AB90C","006408","582800","917135","C1C1C1","818181","3E3E3E","000000"]
+    },
+    {
+        "Section"   : "Software",
+        "Name"      : "Risc OS",
+        "Palette"   : ["FFFFFF","DDDDDD","BDBDBD","999999","797979","535353","313131","000000","004299","F0F000","00CD00","DD0000","F0F0BD","538900","FFBD00","00BDFF"]
+    },
+    {
+        "Section"   : "Apple II",
+        "Name"      : "Low res",
+        "Palette"   : ["000000","853B51","504789","EA5DF0","006852","929292","00A8F1","CAC3F8","515C0F","EB7F23","929292","F6B9CA","00CA29","CBD39B","9ADCCB","FFFFFF"]
+    },
+    {
+        "Section"   : "Apple II",
+        "Name"      : "High res",
+        "Palette"   : ["000000","FF00FF","00FF00","FFFFFF","00AFFF","FF5000"]
     },
     {
         "Section"   : "CGA",
-        "Name"      : "Mode 4 #0 Low",
+        "Name"      : "Palette 0 Low",
         "Palette"   : ["000000","00AA00","AA0000","AA5500"]
     },
 	{
         "Section"   : "CGA",
-        "Name"      : "Mode 4 #0 High",
+        "Name"      : "Palette 0 High",
         "Palette"   : ["000000","55FF55","FF5555","FFFF55"]
     },
 	{
         "Section"   : "CGA",
-        "Name"      : "Mode 4 #1 Low",
+        "Name"      : "Palette 1 Low",
         "Palette"   : ["000000","00AAAA","AA00AA","AAAAAA"]
     },
     {
         "Section"   : "CGA",
-        "Name"      : "Mode 4 #1 High",
+        "Name"      : "Palette 1 High",
         "Palette"   : ["000000","55FFFF","FF55FF","FFFFFF"]
     },
     {
@@ -45,9 +60,79 @@
         "Palette"   : ["000000","55FFFF","FF5555","FFFFFF"]
     },
     {
+        "Section"   : "Commodore",
+        "Name"      : "Vic 20 High res",
+        "Palette"   : ["000000","FFFFFF","782922","87D6DD","AA5FB6","1A8226","40318D","BFCE72"]
+    },
+    {
+        "Section"   : "Commodore",
+        "Name"      : "Vic 20 Multicolor",
+        "Palette"   : ["000000","FFFFFF","782922","87D6DD","AA5FB6","1A8226","40318D","BFCE72","EAB489","B86962"]
+    },
+    {
+        "Section"   : "Commodore",
+        "Name"      : "C64",
+        "Palette"   : ["000000","FFFFFF","A14D43","6AC1C8","A257A5","5CAD5F","4F449C","CBD689","A3683A","6E530B","CC7F76","636363","8B8B8B","9BE39D","8A7FCD","AFAFAF"]
+    },
+    {
+        "Section"   : "Mattel",
+        "Name"      : "Aquarius",
+        "Palette"   : ["161616","D8102E","11C400","D0BE16","0A1CC4","C916DB","03CBAD","FEFEFE","C4C4C4","49AD9E","943A9C","1A2379","C1B861","47A03E","912D3C","161616"]
+    },
+    {
+        "Section"   : "Mattel",
+        "Name"      : "Intellivision",
+        "Palette"   : ["0C0005","002DFF","FF3E00","C9D464","00780F","00A720","FAEA27","FFFCFF","A7A8A8","5ACBFF","FFA600","3C5800","FF3276","BD95FF","6CCD30","C81A7D"]
+    },
+    {
+        "Section"   : "Thomson TO7/70",
+        "Name"      : "Palette 1",
+        "Palette"   : ["000000","0000FF","FF0000","FF00FF","BBBBBB","00FFFF","FFFF00","FFFFFF","DD7777","EEBB00","DDDD77","77DD77","BBFFFF","7777DD","DD77EE","BBBBBB"]
+    },
+    {
+        "Section"   : "Thomson TO7/70",
+        "Name"      : "Palette 2",
+        "Palette"   : ["000000","0000FF","FF0000","FF00FF","00FF00","00FFFF","FFFF00","FFFFFF","555555","AAAAAA","CC0000","00AA00","0000EE","009999","BB00BB","777700"]
+    },
+    {
+        "Section"   : "Thomson TO7/70",
+        "Name"      : "Palette 3",
+        "Palette"   : ["000000","0000FF","FF0000","FF00FF","00FF00","00FFFF","FFFF00","FFFFFF","555555","0000AA","AA0000","FF55FF","00AA00","55FFFF","FFFF55","AAAAAA"]
+    },
+    {
         "Section"   : "Others",
-        "Name"      : "Gameboy",
-        "Palette"   : ["003c00","00720b","78bc00","90cc00"]
+        "Name"      : "Teletext",
+        "Palette"   : ["000000","0000FF","FF0000","FF00FF","00FF00","00FFFF","FFFF00","FFFFFF"]
+    },
+    {
+        "Section"   : "Others",
+        "Name"      : "Fairchild Channel F",
+        "Palette"   : ["E0E0E0","91FFA6","CED0FF","FCFCFC","101010","FF3153","02CC5D","4B3FF3"]
+    },
+    {
+        "Section"   : "Others",
+        "Name"      : "Epoch Super Cassette Vision",
+        "Palette"   : ["000000","FF0000","FFA100","FFA09F","FFFF00","A3A000","00A100","00FF00","A0FF9D","00009B","0000FF","A200FF","FF00FF","00FFFF","A2A19F","FFFFFF"]
+    },
+    {
+        "Section"   : "Others",
+        "Name"      : "Magnavox Odissey 2",
+        "Palette"   : ["006D07","2AAABE","1A37BE","94309F","790000","77670B","676767","000000","56C469","77E6EB","5C80F6","DC84E8","C75151","C6B86A","CECECE","FFFFFF"]
+    },
+    {
+        "Section"   : "Others",
+        "Name"      : "Sinclair QL",
+        "Palette"   : ["000000","FF0000","00FF00","FFFFFF"]
+    },
+    {
+        "Section"   : "Others",
+        "Name"      : "Thomson MO5",
+        "Palette"   : ["000000","FF5555","00FF00","FFFF00","5555FF","FF00FF","55FFFF","FFFFFF","AAAAAA","FFAAAA","AAFFAA","FFFFAA","55AAFF","FFAAFF","AAFFFF","FFAA55"]
+    },
+    {
+        "Section"   : "Others",
+        "Name"      : "Msx",
+        "Palette"   : ["000000","3EB849","74D07D","5955E0","8076F1","B95E51","65DBEF","DB6559","FF897D","CCC35E","DED087","3AA241","B766B5","CCCCCC","FFFFFF"]
     }
 
 ]

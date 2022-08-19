@@ -54,7 +54,7 @@ java --add-opens=java.desktop/sun.awt.shell=ALL-UNNAMED -jar athon.jar
 ```
 
 ## Info
-The program is written in Java by __atomfighter__ <theatomfighter@gmail.com> and __honneamise__.
+The program is written in Java by __atomfighter__ <theatomfighter@gmail.com> and __honneamise__ <honneamise@hotmail.com>.
 
 To apply a palette to an image the program retrieve the closest color using the euclidean distance.
 
@@ -62,6 +62,10 @@ If the __"Dither"__ option is enabled the Floyd Steinberg dithering algo will be
 
 ## Todo
 - Add support for Netpbm file format
-- Add more filters
+- Add more artistic filters
 - Add palette extractor with K-means
+- Add Amstrad CPC palette
+- Add Gameboy/Gameboy Color palette
+- Add option to add palette without section
+- Find a solution for images biggest than the view panel ( resize ? scroll ? )
 

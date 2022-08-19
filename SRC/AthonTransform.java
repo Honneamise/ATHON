@@ -3,8 +3,8 @@ import java.util.*;
 
 public class AthonTransform 
 {
-    //NOT USED ( instead use transform with mono palette )
-    public static BufferedImage blackwhite(BufferedImage src)
+    //mono
+    public static BufferedImage mono(BufferedImage src)
     {
         if(src==null) { return null; }
 

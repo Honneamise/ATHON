@@ -5,6 +5,7 @@ public class AthonMenuFilter extends JMenu implements ActionListener
 {
     AthonFrame frame;
 
+    JMenuItem mono;
     JMenuItem greyscale;
     JMenuItem negative;
     JMenuItem sepia;
@@ -13,6 +14,10 @@ public class AthonMenuFilter extends JMenu implements ActionListener
     {
         super("Filter");
         this.frame = frame;
+
+        mono = new JMenuItem("Monochrome");
+        mono.addActionListener(this);
+        add(mono);
 
         greyscale = new JMenuItem("Greyscale");
         greyscale.addActionListener(this);
@@ -29,11 +34,17 @@ public class AthonMenuFilter extends JMenu implements ActionListener
 
     public void actionPerformed(ActionEvent e)
     {
+        //mono
+        if (e.getSource() == mono) 
+        {
+            frame.dst_panel.img = AthonTransform.mono( frame.src_panel.img);
+            frame.dst_panel.getParent().repaint();
+        }
+
         //greyscale
         if (e.getSource() == greyscale) 
         {
             frame.dst_panel.img = AthonTransform.greyscale( frame.src_panel.img);
-
             frame.dst_panel.getParent().repaint();
         }
 
@@ -41,7 +52,6 @@ public class AthonMenuFilter extends JMenu implements ActionListener
         if (e.getSource() == negative) 
         {
             frame.dst_panel.img = AthonTransform.negative( frame.src_panel.img);
-
             frame.dst_panel.getParent().repaint();
         }
 
@@ -49,7 +59,6 @@ public class AthonMenuFilter extends JMenu implements ActionListener
         if (e.getSource() == sepia) 
         {
             frame.dst_panel.img = AthonTransform.sepia( frame.src_panel.img);
-
             frame.dst_panel.getParent().repaint();
         }
     }

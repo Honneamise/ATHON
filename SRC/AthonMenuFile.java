@@ -87,8 +87,9 @@ public class AthonMenuFile extends JMenu implements ActionListener
 
                 frame.src_panel.img = img;
                 frame.dst_panel.img = null;
+                
                 frame.setTitle(file);
-                frame.repaint();
+                //frame.repaint();
             }
         }
 
