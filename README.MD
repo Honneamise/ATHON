@@ -22,9 +22,17 @@ Current supported file formats :
 - WBMP
 
 ## Custom palette
-Palettes are located in the file __"palettes.json"__ under the folder __"LIB"__ , you can edit current palettes or add new ones.
+Palettes are located in the file __"palettes.json"__ under the folder __"LIB"__ , you can edit the current palettes or add new ones.
 
-To create a new entry add a section like the following:
+To add a new entry put a block like the following :
+```
+{
+    "Name"      : "Test palette",
+    "Palette"   : ["FF0000","00FF00","0000FF"]
+}
+```
+
+To group one or more entries add the __"Section"__ parameter :
 ```
 {
     "Section"   : "My palettes",
@@ -32,6 +40,8 @@ To create a new entry add a section like the following:
     "Palette"   : ["FF0000","00FF00","0000FF"]
 }
 ```
+
+
 
 ## Build and run
 To build the project use :
@@ -62,9 +72,9 @@ If the __"Dither"__ option is enabled the Floyd Steinberg dithering algo will be
 
 ## Todo
 - Add support for Netpbm file format
-- Add more artistic filters
-- Add palette extractor with K-means
 - Add Amstrad CPC palette
 - Add Gameboy/Gameboy Color palette
-- Add option to add palette without section
+- Add more artistic filters
+- Add palette extractor with K-means
+- Optionally add drag and drop support for files
 

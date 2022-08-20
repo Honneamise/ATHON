@@ -75,6 +75,76 @@
         "Palette"   : ["000000","FFFFFF","A14D43","6AC1C8","A257A5","5CAD5F","4F449C","CBD689","A3683A","6E530B","CC7F76","636363","8B8B8B","9BE39D","8A7FCD","AFAFAF"]
     },
     {
+        "Section"   : "Game Boy",
+        "Name"      : "Original",
+        "Palette"   : ["003F00","2E7320","8CBF0A","A0CF0A"]
+    },
+    {
+        "Section"   : "Game Boy",
+        "Name"      : "Pocket",
+        "Palette"   : ["000000","555555","AAAAAA","FFFFFF"]
+    },
+    {
+        "Section"   : "Game Boy Color",
+        "Name"      : "$12",
+        "Palette"   : ["FFFFFF","FFAD63","833100","000000"]
+    },
+    {
+        "Section"   : "Game Boy Color",
+        "Name"      : "$B0",
+        "Palette"   : ["FFFFFF","FF8584","943A3A","000000"]
+    },
+    {
+        "Section"   : "Game Boy Color",
+        "Name"      : "$79",
+        "Palette"   : ["FFE7C5","CE9C85","846B29","5B3109"]
+    },
+    {
+        "Section"   : "Game Boy Color",
+        "Name"      : "$B8",
+        "Palette"   : ["FFFFFF","65A49B","0000FE","000000"]
+    },
+    {
+        "Section"   : "Game Boy Color",
+        "Name"      : "$AD",
+        "Palette"   : ["FFFFFF","8B8CDE","53528C","000000"]
+    },
+    {
+        "Section"   : "Game Boy Color",
+        "Name"      : "$16",
+        "Palette"   : ["FFFFFF","A5A5A5","525252","000000"]
+    },
+    {
+        "Section"   : "Game Boy Color",
+        "Name"      : "$17",
+        "Palette"   : ["FFFFA5","FE9494","9394FE","000000"]
+    },
+    {
+        "Section"   : "Game Boy Color",
+        "Name"      : "$07",
+        "Palette"   : ["FFFFFF","FFFF00","FE0000","000000"]
+    },
+    {
+        "Section"   : "Game Boy Color",
+        "Name"      : "$BA",
+        "Palette"   : ["FFFFFF","FFFF00","7D4900","000000"]
+    },
+    {
+        "Section"   : "Game Boy Color",
+        "Name"      : "$05",
+        "Palette"   : ["FFFFFF","51FF00","FF4200","000000"]
+    },
+    {
+        "Section"   : "Game Boy Color",
+        "Name"      : "$7C",
+        "Palette"   : ["FFFFFF","7BFF30","0163C6","000000"]
+    },
+    {
+        "Section"   : "Game Boy Color",
+        "Name"      : "$13",
+        "Palette"   : ["000000","008486","FFDE00","FFFFFF"]
+    },
+    {
         "Section"   : "Mattel",
         "Name"      : "Aquarius",
         "Palette"   : ["161616","D8102E","11C400","D0BE16","0A1CC4","C916DB","03CBAD","FEFEFE","C4C4C4","49AD9E","943A9C","1A2379","C1B861","47A03E","912D3C","161616"]

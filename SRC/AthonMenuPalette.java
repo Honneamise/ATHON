@@ -36,7 +36,7 @@ public class AthonMenuPalette extends JMenu implements ActionListener
 
         //dither on/off
         dither = new JCheckBoxMenuItem("Dither");
-        ((JCheckBoxMenuItem)dither).setSelected(true);
+        //((JCheckBoxMenuItem)dither).setSelected(true);
         add(dither);
         addSeparator();
         
@@ -60,8 +60,6 @@ public class AthonMenuPalette extends JMenu implements ActionListener
         {
             JsonObject obj = arr.getJsonObject(i);
 
-            String section = obj.getString("Section");
-
             String name = obj.getString("Name");
             
             List<Integer> palette = new ArrayList<Integer>();
@@ -74,6 +72,10 @@ public class AthonMenuPalette extends JMenu implements ActionListener
             JMenuItem entry = new JMenuPalette(name, palette);
             entry.addActionListener(this);
             
+            String section = obj.getString("Section",null);
+
+            if(section==null){ add(entry); continue; }
+
             if(!sections.containsKey(section))
             {
                 JMenuItem sec = new JMenu(section);
