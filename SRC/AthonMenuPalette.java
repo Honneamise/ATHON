@@ -100,6 +100,6 @@ public class AthonMenuPalette extends JMenu implements ActionListener
             frame.dst_panel.img = AthonTransform.palette_nearest(frame.src_panel.img, item.palette);
         }
 
-        frame.dst_panel.getParent().repaint();
+        frame.dst_panel.repaint();
     }
 }

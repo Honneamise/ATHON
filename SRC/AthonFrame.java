@@ -46,9 +46,10 @@ public class AthonFrame extends JFrame
         src_panel = new AthonPanel(null);
         dst_panel = new AthonPanel(null);
 
-        pane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, new JScrollPane(src_panel), new JScrollPane(dst_panel));
+        pane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, src_panel, dst_panel);
         pane.setEnabled(false);
-
+        pane.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        pane.setDividerSize(10);
         add(pane, BorderLayout.CENTER);
 
         pack();

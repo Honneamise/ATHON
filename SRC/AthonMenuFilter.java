@@ -38,28 +38,28 @@ public class AthonMenuFilter extends JMenu implements ActionListener
         if (e.getSource() == mono) 
         {
             frame.dst_panel.img = AthonTransform.mono( frame.src_panel.img);
-            frame.dst_panel.getParent().repaint();
+            frame.dst_panel.repaint();
         }
 
         //greyscale
         if (e.getSource() == greyscale) 
         {
             frame.dst_panel.img = AthonTransform.greyscale( frame.src_panel.img);
-            frame.dst_panel.getParent().repaint();
+            frame.dst_panel.repaint();
         }
 
         //negative
         if (e.getSource() == negative) 
         {
             frame.dst_panel.img = AthonTransform.negative( frame.src_panel.img);
-            frame.dst_panel.getParent().repaint();
+            frame.dst_panel.repaint();
         }
 
         //sepia
         if (e.getSource() == sepia) 
         {
             frame.dst_panel.img = AthonTransform.sepia( frame.src_panel.img);
-            frame.dst_panel.getParent().repaint();
+            frame.dst_panel.repaint();
         }
     }
 }

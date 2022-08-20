@@ -67,5 +67,4 @@ If the __"Dither"__ option is enabled the Floyd Steinberg dithering algo will be
 - Add Amstrad CPC palette
 - Add Gameboy/Gameboy Color palette
 - Add option to add palette without section
-- Find a solution for images biggest than the view panel ( resize ? scroll ? )
 
