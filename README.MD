@@ -5,15 +5,74 @@ Athon is a basic program that allow to modify an image applying a filter or a sp
 ![image](athon.jpg)
 
 Current available filters :
+
 - Greyscale
 - Negative
 - Sepia
 
 Current available palettes :
-- CGA
-- Others (Gameboy,etc...)
 
+ - Software
+    - MS/IBM 16 colors
+    - MS 20 colors
+    - Apple Macintosh
+    - Risc OS
+
+- Apple II
+    - Low res
+    - High res
+
+- CGA
+    - Palette 0 Low
+    - Palette 0 High
+    - Palette 1 Low
+    - Palette 1 High
+    - Mode 5 Low
+    - Mode 5 High
+    
+- Commodore
+    - Vic 20 High res
+    - Vic 20 Multicolor
+    - C64"
+
+- Game Boy
+    - Original
+    - Pocket
+    
+- Game Boy Color
+    - $12
+    - $B0
+    - $79
+    - $B8
+    - $AD
+    - $16
+    - $17
+    - $07
+    - $BA
+    - $05
+    - $7C
+    - $13
+    
+- Mattel
+    - Aquarius
+    - Intellivision
+    
+- Thomson TO7/70
+    - Palette 1
+    - Palette 2
+    - Palette 3
+    
+- Others
+    - Epoch Super Cassette Vision
+    - Fairchild Channel F
+    - Magnavox Odissey 2
+    - Msx
+    - Sinclair QL
+    - Teletext
+    - Thomson MO5
+    
 Current supported file formats :
+
 - BMP
 - GIF
 - JPEG
@@ -24,7 +83,7 @@ Current supported file formats :
 ## Custom palette
 Palettes are located in the file __"palettes.json"__ under the folder __"LIB"__ , you can edit the current palettes or add new ones.
 
-To add a new entry put a block like the following :
+To add a new entry insert a block like the following :
 ```
 {
     "Name"      : "Test palette",
@@ -70,11 +129,4 @@ To apply a palette to an image the program retrieve the closest color using the 
 
 If the __"Dither"__ option is enabled the Floyd Steinberg dithering algo will be applied.
 
-## Todo
-- Add support for Netpbm file format
-- Add Amstrad CPC palette
-- Add Gameboy/Gameboy Color palette
-- Add more artistic filters
-- Add palette extractor with K-means
-- Optionally add drag and drop support for files
 

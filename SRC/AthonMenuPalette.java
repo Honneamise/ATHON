@@ -35,7 +35,7 @@ public class AthonMenuPalette extends JMenu implements ActionListener
         sections = new Hashtable<String, JMenuItem>();
 
         //dither on/off
-        dither = new JCheckBoxMenuItem("Dither");
+        dither = new JCheckBoxMenuItem("Enable dither");
         //((JCheckBoxMenuItem)dither).setSelected(true);
         add(dither);
         addSeparator();
